@@ -1,0 +1,23 @@
+{
+  "name": "stylelint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "pre-commit": "lint-staged",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "eslint": "*.js",
+    "stylelint": "*.css"
+  },
+  "author": "Jitendra",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylelint": "^3.5.0",
+    "lint-staged": "^3.2.1",
+    "pre-commit": "^1.1.3"
+  }
+}

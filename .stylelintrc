@@ -1,0 +1,6 @@
+{
+    "rules": {
+        "color-hex-case": lower,
+        "no-duplicate-selectors": true,
+    }
+}
